@@ -1,4 +1,3 @@
 {
-  "root": { "label": "English", "lang": "en" },
-  "de": { "label": "Deutsch", "lang": "de" }
+  "root": { "label": "English", "lang": "en" }
 }

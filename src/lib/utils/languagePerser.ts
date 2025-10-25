@@ -3,7 +3,7 @@ export const getTranslations = async (lang: string) => {
   try {
     menu = await import(`../../config/menu.${lang}.json`);
   } catch (error) {
-    menu = await import(`../../config/menu.en.json`);
+    menu = await import(`../../config/menu.json`);
   }
 
   return { ...menu.default,  };

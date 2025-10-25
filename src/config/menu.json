@@ -4,6 +4,10 @@
       "name": "Home",
       "url": "/"
     },
+        {
+      "name": "jdedev",
+      "url": "/jdedevcloud/jdedevcloud/"
+    },
     {
       "name": "Documentation",
       "url": "/getting-started/introduction/overview/"
