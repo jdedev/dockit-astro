@@ -1,0 +1,81 @@
+---
+title: Services
+description: Get started building your docs site with DocKit.
+---
+
+**[jdedev.cloud](https://jdedev.cloud)** provides deep expertise in **JD Edwards development, testing, troubleshooting, and support**.  
+
+⚙️ Integration & Automation
+Accelerate business workflows with API-driven Orchestrations, BSSV, and fully automated JDE integration testing.
+
+---
+
+-   :material-api: **Orchestrator — API**
+
+    Automations and integrations via JDE AIS/Orchestrator with REST interfaces for real-time connectivity and process automation.  
+    [:octicons-arrow-right-24: Explore](services/orch/2orch.md)
+
+---
+
+-   :material-briefcase-variant: **Business Services — BSSV**
+    
+    Business Services (BSSV) design, deployment, and versioning best practices, including SOAP interfaces for legacy and enterprise integrations.  
+    [:octicons-arrow-right-24: Explore](services/bssv/bssv.md)
+
+---    
+
+-   :material-flask-outline: **JDE Interfaces End-to-End Testing**
+
+    Automated validation of integrations across AIS, Orchestrations, BSSV, and third-party systems.  
+    Continuous monitoring, regression suites, and GitHub-based test automation.  
+    [:octicons-arrow-right-24: Explore](services/test/test.md)
+
+---    
+
+☁️ Cloud & Infrastructure
+Expertise in deploying and managing JD Edwards test environments in the cloud and maintaining infrastructure health.
+
+-   :material-cloud: **Oracle JDE Cloud**
+
+    Deployment, configuration, and optimization of JD Edwards on Oracle Cloud Infrastructure (OCI).  
+    [:octicons-arrow-right-24: Explore](services/oci/oci.md)
+
+---    
+
+-   :material-monitor: **Monitoring / Observability**
+
+    Continuous infrastructure monitoring for JDE servers, processes, and integrations.  
+    [:octicons-arrow-right-24: Explore](services/monitoring/monitoring.md)
+
+---    
+
+-   :material-bug: **Troubleshooting**
+
+    Root-cause analysis, issue diagnostics, and resolution strategies for JDE systems.  
+    [:octicons-arrow-right-24: Explore](services/debug/debug)
+
+---    
+
+🧩 Core Development & Applications
+Technical foundations and advanced customization for JD Edwards business logic and user experiences.
+
+-   :material-cog: **Business Functions — BSFN**
+
+    Core BSFN patterns, reusable logic, and performance considerations.  
+    [:octicons-arrow-right-24: Explore](services/bsfn/bsfn.md)
+
+---    
+
+-   :material-apps: **Applications — APPS**
+
+    JDE interactive apps configuration, UX flows, and security roles.  
+    [:octicons-arrow-right-24: Explore](services/apps/apps.md)
+
+---    
+
+-   :material-file-chart: **Reports — UBE/BIP**
+
+    UBE/BIP report development, formatting, and scheduling pipelines.  
+    [:octicons-arrow-right-24: Explore](services/ube/ube.md)
+
+---    

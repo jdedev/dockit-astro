@@ -2,9 +2,11 @@
   "main": [
     {
       "label": "Services",
+      "collapsed": true,
       "items": [
         {
           "label": "JD Edwards Development",
+          "collapsed": true,
           "autogenerate": {
             "directory": "jdedevcloud"
           }
@@ -12,13 +14,13 @@
         {
           "label": "Contents",
           "autogenerate": {
-            "directory": "jdedevcloud"
+            "directory": ""
           }
         },
         {
           "label": "Contact",
           "autogenerate": {
-            "directory": "jdedevcloud"
+            "directory": ""
           }
         }
       ]
