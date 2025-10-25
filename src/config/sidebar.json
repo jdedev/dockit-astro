@@ -1,23 +1,40 @@
 {
   "main": [
     {
+      "label": "Services",
+      "items": [
+        {
+          "label": "JD Edwards Development",
+          "autogenerate": {
+            "directory": "jdedevcloud"
+          }
+        },
+        {
+          "label": "Contents",
+          "autogenerate": {
+            "directory": "jdedevcloud"
+          }
+        }
+      ]
+    },
+    {
       "label": "Getting Started",
       "items": [
         {
           "label": "[seti:vite] Introduction",
           "autogenerate": {
-            "directory": "getting-started/introduction"
+            "directory": "review/getting-started/introduction"
           }
         },
         {
           "label": "[setting] Global Settings",
           "autogenerate": {
-            "directory": "getting-started/global-settings"
+            "directory": "review/getting-started/global-settings"
           }
         },
         {
           "label": "[seti:plan] Navigation",
-          "slug": "getting-started/navigation"
+          "slug": "review/getting-started/navigation"
         }
       ]
     },
@@ -27,13 +44,13 @@
         {
           "label": "[document] Components and Block",
           "autogenerate": {
-            "directory": "contents/components"
+            "directory": "review/contents/components"
           }
         },
         {
           "label": "[pencil] Editing Content",
           "autogenerate": {
-            "directory": "contents/editing"
+            "directory": "review/contents/editing"
           }
         }
       ]
@@ -41,13 +58,13 @@
     {
       "label": "Reference",
       "autogenerate": {
-        "directory": "reference"
+        "directory": "review/reference"
       }
     },
     {
       "label": "Configurations",
       "autogenerate": {
-        "directory": "configurations"
+        "directory": "review/configurations"
       }
     }
   ]
