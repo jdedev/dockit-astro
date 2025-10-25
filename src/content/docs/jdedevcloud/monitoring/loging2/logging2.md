@@ -1,0 +1,5 @@
+---
+title: logging
+---
+
+> logging2

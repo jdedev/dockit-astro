@@ -4,12 +4,16 @@
       "name": "Home",
       "url": "/"
     },
-        {
+    {
       "name": "Services",
-      "url": "/jdedevcloud/jdedevcloud/"
+      "url": "/"
     },
     {
       "name": "Documentation",
+      "url": "/jdedevcloud/jdedevcloud/"
+    },
+    {
+      "name": "DocKit Documentation",
       "url": "/getting-started/introduction/overview/"
     },
     {

@@ -3,6 +3,7 @@ import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import { viewTransitions } from "astro-vtbot/starlight-view-transitions";
 import starlightImageZoom from 'starlight-image-zoom';
+import mermaid from 'astro-mermaid';
 
 import tailwindcss from "@tailwindcss/vite";
 import config from "./src/config/config.json" assert { type: "json" };
@@ -46,15 +47,19 @@ export default defineConfig({
         ContentPanel: "./src/components/override-components/ContentPanel.astro",
         Pagination: "./src/components/override-components/Pagination.astro",
         Sidebar: "./src/components/override-components/Sidebar.astro",
-        
-        
+
+
       },
-       plugins: [starlightImageZoom()],
-      
+      plugins: [starlightImageZoom()],
+
     }),
+    mermaid({
+      theme: 'forest',
+      autoTheme: true
+    })
   ],
   vite: {
-    plugins: [tailwindcss(),viewTransitions()],
+    plugins: [tailwindcss(), viewTransitions()],
     resolve: {
       alias: {
         "@": fileURLToPath(new URL("./src", import.meta.url)),
